@@ -1,0 +1,501 @@
+*{ margin:0; padding:0; }
+@media screen and (max-width: 1164px) { /*----------------------------------------*/
+	/*HEADER*/
+	.logo {
+		margin-top: 40px;
+	}
+	.burmenu {
+		margin-top: 40px;
+	}
+	/*HEADER END*/
+	/*Myworking*/
+	#Myworking {
+	height: 840px;
+	}
+
+	.formbtnsmywrk {
+	position: absolute;
+	width: 574px;
+	height: 574px;
+	left: 50%;
+	margin-left: -287px;
+	top: 200px;
+	}
+	div.btndesign {
+	margin-bottom: 14px;
+	}
+
+	div.btndevelope {
+	margin-right: 0px;
+	margin-bottom: 14px;
+	}
+	div.btnlaunch {
+	background-color: #ff2b4a;
+	width: 280px;
+	height: 280px;
+	float: left;
+	position: relative;
+	cursor: pointer;
+	transition: all 0.3s ease-out;
+	}
+	/*Myworking END*/
+	/*My experience*/
+	#experience {
+	height: 1180px;
+	}
+	.formexperience {
+	position: absolute;
+	width: 94%;
+	height: 540px;
+	left: 3%;
+	margin-left: 0;
+	top: 80px;
+	}
+	.formexperience hr{
+	margin-top: 25px;
+	border-color: #cccccc;
+	}
+	div.experienceleftcont {
+	width: 100%;
+	height: 500px;
+	float: left;
+	margin-right: 0;
+	}
+	div.experiencerightcont {
+	width: 100%;
+	margin-top: 30px;
+	height: 500px;
+	float: left;
+	}
+	div.excontent {
+	margin-left: 10%;
+	margin-right: 10%;
+	width: 80%;
+	height: 100%;
+	}
+	.excontent h1 {
+	padding-top: 40px;
+	}
+	/*My experience END*/
+	/*My Latest Work*/
+	#latestwork {
+		width: 100%;
+		height: 1480px;
+	}
+	.gallery {
+	width: 574px;
+	height: 1164px;
+	left: 50%;
+	margin-left: -287px;
+	top: 200px;
+	}
+	div.btn1 {
+	margin-right: 14px;
+	}
+	div.btn2 {
+	margin-right: 0;
+	}
+	div.btn3 {
+	margin-top: 14px;
+	margin-right: 14px;
+	}
+	div.btn4 {
+	margin-top: 14px;
+	}
+	div.btn5 {
+	margin-right: 0;
+	margin-top: 14px;
+	}
+	div.btn6 {
+	margin-right: 14px;
+	margin-top: 14px;
+	}
+	div.btn7 {
+	margin-top: 14px;
+	float: left;
+	}
+/*My Latest Work END*/
+/*LETTER*/
+	.contentletter {
+	position: absolute;
+	width: 80%;
+	height: 100%;
+	left: 10%;
+	margin-left: 0;
+	}
+	img.quotes {
+	padding-top: 140px;
+	}
+	.contentletter p {
+	width: 400px;
+	}
+/*LETTER END*/
+/*EMAIL*/
+	#emailsection {
+	height: 1200px;
+	}
+	.emailform {
+	position: absolute;
+	width: 960px;
+	height: 100%;
+	left: 50%;
+	margin-left: -480px;
+
+	} 
+	.message{
+	position: relative;
+	width: 100%;
+	height: 500px;
+	float: left;
+	}
+	.firstinput {
+	position: absolute;
+	top: 85px;
+	width: 38%;
+	padding-left: 2%; 
+	margin-top: 65px;
+	height: 50px;
+	}
+	.secondinput {
+	position: absolute;
+	top: 184px;
+	width: 38%;
+	padding-left: 2%; 
+	margin-top: 65px;
+	height: 50px;
+	}
+	input[type=email] {
+	position: absolute;
+	top: 248px;
+	width: 38%;
+	padding-left: 2%; 
+	margin-top: 30px;
+	height: 50px;
+	}
+	textarea {
+	position: absolute;
+	right: 45px;
+	width: 38%;
+	padding: 18px 5% 0 5%;
+	}
+	div.btn-message {
+	position: absolute;
+	bottom: 20px;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	width: 200px;
+	}
+	.address {
+	margin-top: 25px;
+	width: 100%;
+	height: 100px;
+	float: right;
+	}
+	.phone {
+	margin-top: 25px;
+	width: 100%;
+	height: 100px;
+	float: right;
+	}
+	.web {
+	margin-top: 25px;
+	width: 100%;
+	height: 100px;
+	float: right;
+	}
+	div.excontentdap {
+	margin-left: 45px;
+	width: 90%;
+	height: 100%;
+	}
+	.excontentdap h1 {
+	padding-top: 65px;
+	padding-bottom: 25px;
+	text-align: center;
+	}
+	.excontentdap h2 {
+	font-family: 'Raleway', sans-serif;
+	color: #fff;
+	padding-top: 20px;
+	font-size: 18px;
+	font-weight: 700;
+	}
+	.excontentdap p {
+	font-family: 'Raleway', sans-serif;
+	color: #cccccc;
+	padding-top: 5px;
+	font-size: 14px;
+	font-weight: 400;
+	}
+/*EMAIL END*/
+}
+@media screen and (max-width: 960px) {/*----------------------------------------*/
+	/*ABOUT*/
+	#aboutme {
+	height: 600px;
+	}
+
+	img.pointing {
+	display: none;
+	}
+
+	.aboutcont {
+	position: absolute;
+	left: 0;
+	width: 100%;
+	height: 50%;
+	margin-top: 20%;
+	}
+
+	.aboutcont h3 {
+	text-align: center;
+	}
+
+	.aboutcont p {
+	text-align: center;
+	}
+
+	div.btn {
+	margin-top: 50px;
+	margin-left: 50%;
+	transform: translate(-50%, -50%);
+	}
+	/*ABOUT END*/
+
+	#Myworking {
+	height: 900px;
+	}
+	.formbtnsmywrk img{
+	position: absolute;
+	width: 50px;
+	left: 50%;
+	top: 20%;
+	margin-left: -25px;
+	}
+
+	.formbtnsmywrk h4{
+	padding-top: 100px;
+	font-size: 16px;
+	font-weight: 700;
+	text-align: center;
+	text-transform: uppercase;
+	}
+
+	.formbtnsmywrk {
+	position: absolute;
+	width: 94%;
+	left: 3%;
+	margin-left: 0;
+	height: 600px;
+	top: 200px;
+	}
+
+	div.btndesign {
+	position: absolute;
+	width: 100%;
+	height: 140px;
+	top: 20px;
+	}
+
+	div.btndevelope {
+	position: absolute;
+	width: 100%;
+	height: 140px;
+	top: 180px;
+	}
+	div.btntest {
+	position: absolute;
+	width: 100%;
+	height: 140px;
+	top: 340px;
+	}
+
+	div.btnlaunch {
+	position: absolute;
+	width: 100%;
+	height: 140px;
+	top: 500px;
+	}
+
+	/*Myworking END*/
+	/*My Latest Work*/
+	#latestwork {
+	width: 100%;
+	height: 1240px;
+	}
+	.gallery {
+	width: 92%;
+	height: 1180px;
+	left: 4%;
+	right: 4%;
+	top: 140px;
+	margin-left: 0;
+	}
+	div.btn1 {
+	width: 100%;
+	height: 120px;
+	margin-top: 100px;
+	margin-right: 0;
+	}
+	div.btn2 {
+	width: 100%;
+	height: 120px;
+	margin-top: 14px;
+	margin-right: 0;
+	}
+	div.btn3 {
+	width: 100%;
+	height: 120px;
+	margin-top: 14px;
+	margin-right: 0;
+	}
+	div.btn4 {
+	width: 100%;
+	height: 120px;
+	margin-top: 14px;
+	margin-right: 0;
+	}
+	div.btn5 {
+	width: 100%;
+	height: 120px;
+	margin-right: 0;
+	margin-top: 14px;
+	}
+	div.btn6 {
+	width: 100%;
+	height: 120px;
+	margin-right: 0;
+	margin-top: 14px;
+	}
+	div.btn7 {
+	width: 100%;
+	height: 120px;
+	margin-top: 14px;
+	float: left;
+		}
+	/*My Latest Work END*/
+	/*EMAIL*/
+	#emailsection {
+	height: 1300px;
+	}
+	.emailform {
+	width: 90%;
+	margin-left: 5%;
+	height: 100%;
+	left: 0;
+	} 
+	.message{
+	position: relative;
+	width: 100%;
+	height: 700px;
+	float: left;
+	}
+	.firstinput {
+	position: static;
+	width: 95%;
+	padding-left: 5%; 
+	margin-top: 20px;
+	height: 50px;
+	}
+	.secondinput {
+	position: static;
+	width: 95%;
+	padding-left: 5%; 
+	margin-top: 65px;
+	height: 50px;
+	}
+	input[type=email] {
+	position: static;
+	width: 95%;
+	padding-left: 5%; 
+	margin-top: 30px;
+	height: 50px;
+	}
+	textarea {
+	position: static;
+	width: 90%;
+	padding: 18px 5% 0 5%;
+	margin-top: 30px;
+	}
+	div.excontentdap {
+	margin-left:  5%;
+	margin-right: 5%;
+	width: 90%;
+	height: 100%;
+	}
+	.address {
+	height: 120px;
+	}
+	.phone {
+	height: 120px;
+	}
+	.web {
+	height: 120px;
+	}
+/*EMAIL END*/
+}
+
+@media screen and (max-width: 440px) {/*----------------------------------------*/
+	/*HEADER*/
+	div.contenthead {
+	width: 260px;
+	position: absolute;
+	top: 40%;
+	left: 50%;
+	margin-left: -130px;
+	}
+	.contenthead  h1 {
+	border-top: solid 2px #9cb4be;
+	border-bottom: solid 2px #9cb4be;
+	padding: 8px 0 8px 0;
+	font-family: 'Raleway', sans-serif;
+	color: #fff;
+	font-size: 38px;
+	font-weight: 900;
+	text-align: center;
+	text-transform: uppercase;
+	}
+	.contenthead  h2 {
+	padding: 4px 0 4px 0;
+	font-family: 'Raleway', sans-serif;
+	color: #9cb4be;
+	font-size: 14px;
+	letter-spacing: 0.85px;
+	font-weight: 400;
+	text-align: center;
+	}
+	/*HEADER END*/
+	/*ABOUT ME*/
+	#aboutme {
+	height: 600px;
+	}
+
+	img.pointing {
+	display: none;
+	}
+
+	.aboutcont {
+	position: absolute;
+	left: 0;
+	width: 100%;
+	height: 50%;
+	margin-top: 20%;
+	}
+
+	.aboutcont h3 {
+	text-align: center;
+	}
+
+	.aboutcont p {
+	text-align: center;
+	}
+
+	div.btn {
+	margin-top: 50px;
+	margin-left: 50%;
+	transform: translate(-50%, -50%);
+	}
+	/*ABOUT ME*/
+	.contentletter p {
+	width: 100%;
+	}
